@@ -1,17 +1,17 @@
-# finaltda2
+# TP Final Teoría de Algoritmos II (75.30)
 
-Origen del dataset: https://www.kaggle.com/datasets/jpdoyl20/tft-set-2
+Este es el repositorio del trabajo final para la materia Teoría de Algoritmos II, 2C2023. Trabajo realizado por Marcos Bat Mentzel (Padrón 107754).
 
-Analisis del grafo:
-Indicar cantidad de nodos/campeones
-Cantidad de aristas
-Densidad de la red/coeficiente de clustering
-grado maximo, grado minimo, grado promedio y mediana del grado
-Diametro de la red, analisis de tamaño máximo de un equipo = 9, ver a partir de qué nivel se pueden formar composiciones con cualesquiera dos campeones
-Analisis de Hofilia si es posible
-Analisis de Clustering
-Analisis de Centralidad
-Analisis de comunidades -> prediccion de composiciones o grupos de campeones que forman composiciónes fuertes en el meta del juego. Modificar el grafo para que sea pesado. Comunidades forman grupos de campeones que pueden conformar una composición meta a lo largo del early mid y late game?
-Roles -> Para tratar de dividir e identificar a los campeones entre campeones carry de una composición y/o campeones que se utilizan para completar la misma?
-Analisis de epidemias? No le veo utilidad a aplicarlo en la red.
-Motifs?
+## Informe
+
+El informe se puede ver en [Informe.pdf](Informe.pdf).
+
+## Archivos
+
+Los archivos e imagenes en el informe se pueden visualizar en sus respectivas carpetas.
+
+## Dependencias
+- GraphRole
+```bash
+$ pip install graphrole
+```
